@@ -57,7 +57,8 @@ function chart (id, csv) {
     },
     point: { show: false },
     axis: { x: { show: false } },
-    legend: { show: showLegend }
+    legend: { show: showLegend },
+    zoom: { enabled: true }
   }
 
   c3.generate(opts)
